@@ -364,6 +364,17 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &377417515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
+  m_PrefabInstance: {fileID: 960979379980653675}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f81e4bd34a7e4543a6a589e0f9880fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &390368325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -566,9 +577,21 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
       propertyPath: kitchenObject
       value: 
       objectReference: {fileID: 11400000, guid: a394978768bfadc419622a96599e033a, type: 2}
+    - target: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
+      propertyPath: secondCounter
+      value: 
+      objectReference: {fileID: 377417515}
+    - target: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
+      propertyPath: kitchenObjectSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c824a09cca746b4790008af2cf2fa29, type: 2}
     - target: {fileID: 6541839621280328796, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -799,6 +822,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1909880998}
+--- !u!114 &1903259292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
+  m_PrefabInstance: {fileID: 577619422}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f81e4bd34a7e4543a6a589e0f9880fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1909880997
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,6 +947,14 @@ PrefabInstance:
       propertyPath: kitchenObject
       value: 
       objectReference: {fileID: 11400000, guid: 2c824a09cca746b4790008af2cf2fa29, type: 2}
+    - target: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
+      propertyPath: secondCounter
+      value: 
+      objectReference: {fileID: 1903259292}
+    - target: {fileID: 5312067351344935733, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
+      propertyPath: kitchenObjectSo
+      value: 
+      objectReference: {fileID: 11400000, guid: a394978768bfadc419622a96599e033a, type: 2}
     - target: {fileID: 7193798399586241050, guid: 8dd221ce954371c4496df625c17ea5a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
