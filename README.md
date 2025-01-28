@@ -1,2 +1,2 @@
-# .
- A small and simple unity game.
+# Kitchen Chaos
+A small and simple unity game.
