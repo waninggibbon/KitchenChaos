@@ -28,7 +28,8 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
     private void Start()
     {
-        gameInput.OnInteractAction += GameInput_IntereactAction;
+        gameInput.OnInteractAction += GameInput_InteractAction;
+        gameInput.OnInteractAlternateAction += GameInput_InteractAlternateAction;
     }
 
     private void Update()
@@ -39,11 +40,19 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
 
-    private void GameInput_IntereactAction(object sender, EventArgs e)
+    private void GameInput_InteractAction(object sender, EventArgs e)
     {
         if (_selectedCounter != null)
         {
             _selectedCounter.Interact(this);
+        }
+    }
+
+    private void GameInput_InteractAlternateAction(object sender, EventArgs e)
+    {
+        if (_selectedCounter != null)
+        {
+            _selectedCounter.InteractAlternate(this);
         }
     }
 
