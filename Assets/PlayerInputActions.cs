@@ -179,7 +179,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""c645e2e1-65e5-4f05-8908-e69082e1a582"",
+                    ""id"": ""e2fe1016-b154-4013-a4e3-81881211ee89"",
                     ""path"": ""<Keyboard>/f"",
                     ""interactions"": """",
                     ""processors"": """",
